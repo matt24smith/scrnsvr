@@ -1,0 +1,10 @@
+# copy or symlink executable to /usr/bin/scrnsvr
+# This .desktop entry goes in ~/.local/share/applications/
+[Desktop Entry]
+Exec=/usr/bin/scrnsvr
+Name=scrnsvr
+GenericName=Screensaver
+Type=Application
+Terminal=true
+NoDisplay=true
+Comment=Tiny X11 screensaver

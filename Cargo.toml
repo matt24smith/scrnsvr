@@ -1,0 +1,19 @@
+[package]
+name = "scrnsvr"
+version = "0.1.0"
+edition = "2021"
+author = "matt24smith at gmail dot com"
+license = "GPLv3"
+description = "Tiny X11 screensaver. Blanks displays after 10 minutes"
+readme = "readme.md"
+repository = "https://github.com/matt24smith/scrnsvr"
+categories = ["screensaver", "X11", "rust", "C", "graphical", "display"]
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0"
+
+[profile.release]
+strip = true
+opt-level = "z"
